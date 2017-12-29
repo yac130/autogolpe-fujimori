@@ -1,0 +1,561 @@
+body{	
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/** fonts **/
+
+
+@font-face {
+    font-family: 'sharebold';
+    src: url('/especiales/autogolpe-fujimori/fonts/share-bold-webfont.woff2') format('woff2'),
+         url('/especiales/autogolpe-fujimori/fonts/share-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'veteran_typewriterregular';
+    src: url('/especiales/autogolpe-fujimori/fonts/veteran_typewriter-webfont.woff2') format('woff2'),
+         url('/especiales/autogolpe-fujimori/fonts/veteran_typewriter-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'nimbus_monoregular';
+    src: url('/especiales/autogolpe-fujimori/fonts/nimbusmono-regular-webfont.woff2') format('woff2'),
+         url('/especiales/autogolpe-fujimori/fonts/nimbusmono-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'nimbus_monobold';
+    src: url('/especiales/autogolpe-fujimori/fonts/nimbusmono-bold-webfont.woff2') format('woff2'),
+         url('/especiales/autogolpe-fujimori/fonts/nimbusmono-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/especiales/autogolpe-fujimori/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('/especiales/autogolpe-fujimori/fonts/roboto-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('/especiales/autogolpe-fujimori/fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('/especiales/autogolpe-fujimori/fonts/roboto-black-webfont.woff') format('woff');
+}
+
+
+.clear{
+    clear: both;
+}
+
+#header{
+    background: #1b1b1b;
+    min-height: 800px;
+    width: 100%;
+}
+    .ctn-video{
+        margin: 0 auto;
+        position: relative;
+        width: 1260px;
+    }
+    .soldado-portada{
+
+    }
+    .header-comercio{ 
+        height: 40px;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 10;  
+    }
+        .ctn-header-comercio{
+            margin: 0 auto;
+            max-width: 980px;
+        }
+        a.logo-comercio{
+            background: url(/especiales/autogolpe-fujimori/img/logo-especial.png) no-repeat 0 0;
+            background-size: 100%;
+            display: block;
+            float: left;
+            height: 35px;
+            text-indent: -99999px;
+            width: 150px;
+        }               
+            #social{
+                float: right;
+            }
+                #social ul{
+                    display: inline-block;
+                    margin: 0 auto;
+                    padding: 0;
+                    vertical-align: middle;
+                }
+                    #social ul li{
+                        display: inline-block;
+                        margin: 0 3px;
+                        vertical-align: middle;
+                    }
+                        #social ul li a{
+                            display: block;
+                            height: 36px;
+                            width: 36px;
+                        }
+                            #social ul li a.facebook{
+                                background: url(/especiales/autogolpe-fujimori/img/sprite-redes.png) no-repeat 0 0;  
+                                background-size: 75px; 
+                                text-indent: -9999px;                         
+                            }
+                            #social ul li a.tw{
+                                background: url(/especiales/autogolpe-fujimori/img/sprite-redes.png) no-repeat -37px 0;  
+                                background-size: 75px;     
+                                text-indent: -9999px;                     
+                            }
+    h1{
+        background: url(/especiales/autogolpe-fujimori/img/titulo.png) no-repeat center center;
+        display: block;
+        height: 177px;
+        margin: 0;
+        position: absolute;
+        text-indent: -9999px;
+        top: 200px;
+        width: 1260px;
+    }
+    .flecha-scroll{
+        background: url(/especiales/autogolpe-fujimori/img/flecha-scroll.png) no-repeat 0 0; 
+        background-size: 100%;
+        cursor: pointer;
+        height: 63px;
+        left: 50%;
+        margin-left: -50px;
+        position: absolute;
+        top: 50%;
+        width: 41px;
+        
+    }                        
+
+.bloque-1,
+.bloque-2,
+.bloque-4,
+.bloque-5{
+    background: #1b1b1b;
+    width: 100%;
+}
+    .ctn-bloque-1,
+    .ctn-bloque-2,
+    .ctn-bloque-3,
+    .ctn-bloque-4,
+    .ctn-bloque-5{
+        margin: 0 auto;
+        width: 980px;
+    }
+    .ctn-bloque-1{
+        margin-top: -20px;
+    }
+        .bloque-negro-1{
+            background: #000;
+            height: 170px;
+            width: 980px;
+        }
+        .bloque-negro-2{
+            background: #000;
+            height: 1450px;
+            left: 0;
+            position: absolute;
+            width: 55%;    
+        }
+        .bloque-negro-3{
+            background: #000;
+            height: 633px;
+            left: 0;
+            position: absolute;
+            width: 69.8%;    
+        }
+        h3{
+            color: #fcc908;
+            font: 40px/40px 'veteran_typewriterregular';
+            margin: 80px 0 60px;
+            position: relative;
+            z-index: 10;
+        }
+            .margin-top{
+                margin-top: 0;
+            }
+        .ctn-texto-izquierda{
+            display: inline-block;
+            margin-left: 125px;
+            width: 300px;
+        }
+        .ctn-texto-derecha{
+            background: #000;
+            display: inline-block;
+            margin-left: 425px;
+            padding: 30px 50px 35px 0;
+            width: 300px;
+        }
+            p{
+                color: #fff;
+                display: inline-block;
+                font: 14px/24px 'nimbus_monoregular';
+                margin: 0 0 20px;
+                position: relative;
+                width: 300px;
+                z-index: 10;
+            }
+        .video-fujimori,
+        .video-epilogo{
+            cursor: pointer;
+            float: right;
+            margin-top: 65px;
+            position: relative;
+        }
+
+.bloque-3{
+    background: #d9dee4;
+    padding-top: 80px;
+    width: 100%;
+}
+    .ctn-bloque-3 h3{
+        color: #000;
+        margin: 0 auto 50px;
+    }
+    .ctn-bloque-3 .ctn-texto-izquierda p{
+        color: #000;
+    }
+    .main-slider{
+        margin: 0 auto;
+        width: 730px;        
+    }
+        .slider{
+            margin-top: 60px;
+            width: 730px;
+        }
+        .slick-prev {
+            left: 0px !important;
+            top: -25px !important;
+        }
+        .slick-next {
+            left: 25px !important;
+            top: -25px !important;
+        }
+
+.bloque-4,
+.bloque-5{
+    margin-top: -5px;
+    padding-top: 70px;
+}
+    .ctn-bloque-4 h3{
+        color: #fcc908;
+        margin: 0 auto 50px;
+    }
+    .box-main-entrevistas{
+        text-align: center;
+        width: 100%;
+    }
+        .box-entrevista{
+            color: #fff;
+            display: inline-block;
+            margin: 0 5px;
+            text-align: left;
+            vertical-align: top;
+            width: 460px;
+        }
+            .box-texto-entrevista{
+                display: inline-block;
+                margin: 30px 0 0 150px;
+                vertical-align: top;
+                width: 360px;
+            }
+                .box-entrevista h4{
+                    font: 18px/20px 'nimbus_monobold';
+                    margin: 0 auto 10px;
+                    text-transform: uppercase;
+                }
+            .box-entrevista img{
+                cursor: pointer;
+            }
+
+.main-popup{
+    background: rgba(0, 0, 0, 0.85);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+    .popup{
+        height: 500px;
+        margin: 180px auto 0;
+        position: relative;
+        width: 980px;
+    }
+        .btn-cerrar{
+            background: url(/especiales/autogolpe-fujimori/img/btn-cerrar.png) no-repeat 0 0;
+            background-size: 100%;
+            cursor: pointer;
+            height: 30px;
+            position: absolute;
+            right: -5px;
+            top: -40px;
+            width: 30px;
+        }
+
+.box-footer{
+    background: #1b1b1b;
+}
+    .ctn-box-footer{
+        height: 170px;
+        margin: 0 auto;
+        padding-top: 50px;
+        width: 980px;
+    }
+        .logo-footer{
+            display: inline-block;
+            height: 40px;
+            vertical-align: top;
+            width: 40px;
+        }
+        .box-creditos{
+            display: inline-block;
+            float: right;
+            vertical-align: top;
+            width: 500px;
+        }
+            .box-creditos span{
+                color: #e2b407;
+                display: inline-block;
+                font: 12px/12px 'robotoblack';
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                vertical-align: top;
+                width: 200px;
+            }
+            .box-creditos p{
+                color: #fff;
+                display: inline-block;
+                font: 12px/12px  'robotoregular';
+                vertical-align: top;
+                width: auto;
+            }
+
+/** slick **/
+.slick-prev, 
+.slick-next {
+    height: 30px !important;
+    width: 30px !important;
+}
+    .slick-prev:before, 
+    .slick-next:before{
+        background: red;
+        color: transparent !important;
+        font-size: 30px !important;
+        opacity: 1;
+
+    }
+        .slick-prev:before{
+            background: url(/especiales/autogolpe-fujimori/img/izquierda-active.jpg) no-repeat 0 0;
+            background-size: 100%;
+            height: 30px;
+            width: 30px;
+
+        }
+        .slick-next:before{
+            background: url(/especiales/autogolpe-fujimori/img/derecha-active.jpg) no-repeat 0 0;
+            background-size: 100%;
+            height: 30px;
+            margin-left: 20px;
+            width: 30px;
+
+        }
+
+
+           
+
+@media screen and (max-width: 1366px) {
+
+
+@media screen and (max-width: 1280px) {
+
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {      
+}
+
+@media screen and (max-width: 480px) {
+  
+}
+
+@media screen and (max-width: 375px) {
+
+    body{
+        box-sizing: border-box;
+    }
+
+    #header{
+        min-height: auto;
+    }
+        .header-comercio{
+            padding: 10px 0 0 0;
+            position: relative;
+        }
+        .ctn-video{
+             width: 100%;
+        }
+            .video-intro{
+                height: 275px;
+                width: 100%;
+            }
+            h1{
+                background-size: 140%;
+                top: 40px;
+                width: 100%;
+            }
+            .flecha-scroll{
+                display: none;
+            }
+
+    .bloque-1, 
+    .bloque-2, 
+    .bloque-4, 
+    .bloque-5 {
+        background: #000000;    
+    }
+
+    .bloque-negro-1,
+    .bloque-negro-3{
+        display: none;
+    }
+    h3{
+        margin: 0 10px 40px;
+    }
+
+    .ctn-bloque-1, 
+    .ctn-bloque-2, 
+    .ctn-bloque-3, 
+    .ctn-bloque-4, 
+    .ctn-bloque-5{
+        width: 100%;
+    }
+        .ctn-texto-izquierda{
+            margin: 0;
+            width: 100%;
+        }
+            p{
+                margin: 0 2%;
+                width: 96%;
+            }
+        .ctn-texto-derecha {
+            margin-left: 0;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 30px;
+            width: 100%;            
+        }
+    .video-fujimori, 
+    .video-epilogo{
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    .main-slider{
+        width: 100%;
+    }
+        .slider{
+            margin-top: 40px;
+            width: 100%;
+        }
+    .bloque-3 {
+        padding-top: 20px;
+    }
+    .bloque-4, 
+    .bloque-5 {
+        margin-top: -5px;
+        padding-top: 30px;
+    }
+    .box-entrevista{
+        margin: 0;
+        width: 100%;
+    }
+        .box-entrevista h4 {                
+            margin: 0 5px 10px;            
+        }
+        .box-texto-entrevista {
+            margin: 20px 0;
+            width: 100%;
+        }
+    .ctn-box-footer{
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+        .logo-footer{
+            margin-bottom: 30px;
+        }
+        .box-creditos{
+            float: none;
+            width: 100%;
+        }
+            .box-creditos span{
+                width: 100%;
+            }
+            .box-creditos p{
+                margin: 0 auto 15px;
+            }
+
+    .bloque-negro-2{
+        height: auto;
+        width: 100%;
+    }
+    .ctn-bloque-3 h3 {
+        margin: 10px 0 10px 5px;
+    }
+
+    .popup {
+        height: 300px;
+        margin: 90px auto 0;
+        width: 100%;
+    }
+        .popup iframe{
+            height: 300px;
+        }
+        .btn-cerrar{
+            right: 10px;
+        }
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+/** monitor Comercio **/
+@media only screen and (min-height: 900px) {
+
+}
+
+/** monitor 768px alto **/
+@media only screen and (min-height: 760px) {
+
+}
+
+/** monitor 900px alto **/
+@media only screen and (min-height: 1024px) {
+
+}
+
+/** monitor 1024px alto **/
+@media only screen and (min-height: 1024px) {
+
+}
+
+
